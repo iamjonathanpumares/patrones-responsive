@@ -1,0 +1,64 @@
+body
+{
+	margin: 0 auto;
+	font-size: 16px;
+}
+
+.container
+{
+	display: flex;
+	display: -webkit-flex;
+	flex-flow: row wrap;
+}
+
+nav
+{
+	background: #E57373;
+	height: 64px;
+	line-height: 64px;
+}
+
+.c1, .c2, .c3
+{
+	width: 100%;
+}
+
+.c1
+{
+	background: #4DD0E1;
+	height: 400px;
+}
+
+.c2
+{
+	background: #00BCD4;
+	height: 400px;
+}
+
+.c3
+{
+	background: #006064;
+	height: 400px;
+}
+
+/* Tablets */
+@media (min-width: 600px)
+{
+	.c1
+	{
+		width: 70%;
+		order: 2;
+	}
+
+	.c2
+	{
+		width: 30%;
+		order: 1;
+	}
+
+	.c3
+	{
+		width: 100%;
+		order: 3;
+	}
+}

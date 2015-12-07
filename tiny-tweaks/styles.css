@@ -1,0 +1,32 @@
+body
+{
+	margin: 0 auto;
+	font-size: 16px;
+}
+
+nav
+{
+	background: #E57373;
+	height: 64px;
+	line-height: 64px;
+}
+
+/* Tablets */
+@media (min-width: 600px)
+{
+	.c1
+	{
+		padding: 1.5em;
+		font-size: 1.5em;
+	}
+}
+
+/* Escritorio */
+@media (min-width: 900px)
+{
+	.c1
+	{
+		padding: 2em;
+		font-size: 2em;
+	}
+}
