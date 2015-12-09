@@ -1,0 +1,67 @@
+body
+{
+	margin: 0 auto;
+	font-size: 16px;
+}
+
+.container
+{
+	display: flex;
+	display: -webkit-flex;
+	flex-flow: row wrap;
+	-webkit-flex-flow: row wrap;
+}
+
+.c1, .c2, .c3, .c4, .c5
+{
+	width: 100%;
+}
+
+.c1
+{
+	background: #4DD0E1;
+	height: 400px;
+}
+
+.c2
+{
+	background: #00BCD4;
+	height: 150px;
+}
+
+.c3
+{
+	background: #0097A7;
+	height: 150px;
+}
+
+.c4
+{
+	background: #00838F;
+	height: 150px;
+}
+
+.c5
+{
+	background: #006064;
+	height: 150px;
+}
+
+/* Tablets */
+@media (min-width: 500px)
+{
+	.c2, .c3, .c4, .c5
+	{
+		width: 50%;
+	}
+}
+
+/* Escritorio */
+@media (min-width: 800px)
+{
+	.container
+	{
+		width: 800px;
+		margin: 0 auto;
+	}
+}

@@ -41,7 +41,7 @@ nav
 	height: 400px;
 }
 
-/* Tablets */
+/* Tablets: 768px; */
 @media (min-width: 600px)
 {
 	.c1
@@ -60,5 +60,19 @@ nav
 	{
 		width: 100%;
 		order: 3;
+	}
+}
+
+/* Escritorio: 1028px; */
+@media (min-width: 900px)
+{
+	.c1
+	{
+		width: 60%;
+	}
+
+	.c2, .c3
+	{
+		width: 20%;
 	}
 }

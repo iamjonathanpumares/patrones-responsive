@@ -1,0 +1,64 @@
+body
+{
+	margin: 0 auto;
+	font-size: 16px;
+}
+
+.container
+{
+	display: flex;
+	display: -webkit-flex;
+	flex-flow: row wrap;
+	-webkit-flex-flow: row wrap;
+}
+
+.c1, .c2, .c3, .container-inner
+{
+	width: 100%;
+}
+
+.c1
+{
+	background: #4DD0E1;
+	height: 64px;
+}
+
+.c2
+{
+	background: #00BCD4;
+	height: 400px;
+}
+
+.c3
+{
+	background: #0097A7;
+	height: 400px;
+}
+
+@media (min-width: 500px)
+{
+	.c1
+	{
+		height: 100px;
+	}
+}
+
+@media (min-width: 800px)
+{
+	.container
+	{
+		width: 800px;
+		margin: 0 auto;
+	}
+
+	.c1
+	{
+		width: 30%;
+		height: 100vh;
+	}
+
+	.container-inner
+	{
+		width: 70%;
+	}
+}
