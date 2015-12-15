@@ -32,3 +32,9 @@ En pantallas más grandes, el diseño es el mismo pero queda agrupado dentro de 
 Este es uno de los patrones más complejos. Consiste en mover los bloques de contenido cambiando totalmente el Layout, de ahí el nombre del patrón.
 
 Gracias a Flexbox, estos cambios podemos realizarlos con mayor facilidad.
+
+## Off Canvas
+
+El patrón más complejo de implementar pero uno de los más utilizados, sobre todo en aplicaciones móviles.
+
+Este patrón esconde contenido en la pantalla y únicamente es visible si realizamos un determinado gesto. Este contenido oculto normalmente es un menú de navegación. Cuando la pantalla es más ancha, este contenido se hace visible.
